@@ -256,3 +256,32 @@ hr{
     margin: 0 auto 20px;
     cursor: pointer;
 }
+/* botões para páginas de processo de coletagem*/
+
+.button_coletar{
+    padding: 10px 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #6a4bb1;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+.button_reformar{
+    padding: 10px 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #6a4bb1;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+.button_disponibilizar{
+    padding: 10px 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #6a4bb1;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
