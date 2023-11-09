@@ -124,9 +124,16 @@ nav ul li a{
 .feature-col{
     flex-basis: 25%;
     text-align: center;
+     margin-top: 20px;
 }
 .feature-col img{
     width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.feature-col button{
+    display: block;
+    margin: 10px auto 0; 
 }
 .feature-col h4{
     margin-bottom: 15px;
@@ -256,7 +263,7 @@ hr{
     margin: 0 auto 20px;
     cursor: pointer;
 }
-/* botões para páginas de processo de coletagem*/
+/* botões para páginas de processo de coletagem, reformar e disponibilizar*/
 
 .button_coletar{
     padding: 10px 20px;
