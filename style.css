@@ -292,3 +292,52 @@ hr{
     cursor: pointer;
     font-size: 17px;
 }
+
+
+
+/*responsividade*/
+
+
+@media only screen and (max-width: 770px){
+    #header{
+        background-image: none;
+    }
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text{
+        
+        margin-top: 100px;
+    }
+     h1{
+        font-size: 25px;
+     }
+     #menuBtn{
+        width: 40px;
+        
+        right: 50px;
+       
+        
+    }
+    .common-btn{
+       
+        padding: 10px 16px;
+        
+        
+    }
+    .social-icons{
+        width: 16px;
+        margin: 15px auto;
+       
+    }
+    .about-left-col,.about-right-col{
+        flex-basis: 100%;
+    }
+}
+
+
