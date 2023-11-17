@@ -9,6 +9,7 @@
     background: url(backkk.png);
     background-position: cover;
     background-size: cover;
+    bottom: 5px;
 }
 .container{
     margin-right: 100px;
@@ -358,8 +359,13 @@ hr{
         margin: 15px auto;
        
     }
+    .about{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
     .about-left-col,.about-right-col{
         flex-basis: 100%;
+        margin-left: 50px;
     }
     .link-title h4{
         color: #5681f7;
@@ -385,5 +391,17 @@ hr{
         display:flex;
         right: 4px;
     }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .c-right-col img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      
 }
-
