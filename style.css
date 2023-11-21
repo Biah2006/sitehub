@@ -9,7 +9,7 @@
     background: url(backkk.png);
     background-position: cover;
     background-size: cover;
-    bottom: 5px;
+    bottom:1px;
 }
 .container{
     margin-right: 100px;
@@ -33,7 +33,9 @@
     background: #585af5;
     margin: 15px 0;
 }
+
 .common-btn{
+   
     padding: 18px 40px;
     background: transparent;
     outline: none;
@@ -41,8 +43,8 @@
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
-    position: relative;
     left: 87px;
+    margin-bottom: 20px;
 }
 p{
     font-size: 17px;
@@ -342,17 +344,12 @@ hr{
         font-size: 25px;
      }
      #menuBtn{
-        width: 40px;
-        
-        right: 50px;
-       
-        
+        width: 40px;    
+        right: 50px;   
     }
-    .common-btn{
-       
-        padding: 10px 16px;
-        
-        
+    .common-btn{ 
+        padding: 10px 20px;    
+        margin-bottom: 20px;
     }
     .social-icons{
         width: 16px;
@@ -402,6 +399,14 @@ hr{
         max-width: 100%;
         height: auto;
       }
-      
-      
+      .feature-col {
+        flex: 0 0 45%; /* Ajuste para telas menores */
+      }     
+}
+
+
+@media screen and (max-width: 480px) {
+    .feature-col {
+      flex: 0 0 100%; /* Colunas empilhadas em telas muito pequenas */
+    }
 }
